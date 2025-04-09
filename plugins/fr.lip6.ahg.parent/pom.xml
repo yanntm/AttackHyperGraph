@@ -32,9 +32,9 @@
 	</properties>
 	<modules>
 		<module>dsl/lip6.move.ahg</module>
-		<module>dsl/lip6.move.ahg.dsl.ide</module>
-		<module>dsl/lip6.move.ahg.dsl.ui</module>
-		<module>dsl/lip6.move.ahg.dsl.target</module>
+		<module>dsl/lip6.move.ahg.ide</module>
+		<module>dsl/lip6.move.ahg.ui</module>
+		<module>dsl/lip6.move.ahg.target</module>
 		
 		<module>../fr.lip6.move.ahg.togal</module>
 		
