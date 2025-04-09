@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: lip6.move.ahg.tests
+Bundle-ManifestVersion: 2
+Bundle-Name: lip6.move.ahg.tests
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: lip6.move.ahg.tests; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: lip6.move.ahg,
+ org.eclipse.xtext.testing,
+ org.eclipse.xtext.xbase.testing,
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0"
+Import-Package: org.junit.jupiter.api;version="[5.1.0,6.0.0)",
+ org.junit.jupiter.api.extension;version="[5.1.0,6.0.0)"
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: lip6.move.ahg.tests;x-internal=true

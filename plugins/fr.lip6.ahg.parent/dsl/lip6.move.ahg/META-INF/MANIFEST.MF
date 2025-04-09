@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: lip6.move.ahg
+Bundle-ManifestVersion: 2
+Bundle-Name: lip6.move.ahg
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: lip6.move.ahg; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.16.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.eclipse.xtext.util,
+ org.eclipse.emf.common,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: lip6.move.ahg,
+ lip6.move.ahg.aHG,
+ lip6.move.ahg.aHG.impl,
+ lip6.move.ahg.aHG.util,
+ lip6.move.ahg.generator,
+ lip6.move.ahg.parser.antlr,
+ lip6.move.ahg.parser.antlr.internal,
+ lip6.move.ahg.scoping,
+ lip6.move.ahg.serialization,
+ lip6.move.ahg.serializer,
+ lip6.move.ahg.services,
+ lip6.move.ahg.validation
+Import-Package: org.apache.log4j

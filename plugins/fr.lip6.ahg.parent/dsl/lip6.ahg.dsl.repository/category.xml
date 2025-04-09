@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="lip6.ahg.dsl.feature" version="0.0.0">
+      <category name="lip6.ahg.dsl.category"/>
+   </feature>
+   <category-def name="lip6.ahg.dsl.category" label="AttackHyperGraph"/>
+   <repository-reference location="https://lip6.github.io/ITSTools" name="ITS-Tools" enabled="true" />
+</site>
