@@ -31,15 +31,15 @@
 		<additionalTestArguments></additionalTestArguments>
 	</properties>
 	<modules>
-		<module>dsl/fr.lip6.ahg.dsl</module>
-		<module>dsl/fr.lip6.ahg.dsl.ide</module>
-		<module>dsl/fr.lip6.ahg.dsl.ui</module>
-		<module>dsl/fr.lip6.ahg.dsl.target</module>
+		<module>dsl/lip6.ahg.dsl</module>
+		<module>dsl/lip6.ahg.dsl.ide</module>
+		<module>dsl/lip6.ahg.dsl.ui</module>
+		<module>dsl/lip6.ahg.dsl.target</module>
 		
 		<module>../fr.lip6.move.ahg.togal</module>
 		
-		<module>dsl/fr.lip6.ahg.dsl.feature</module>
-		<module>dsl/fr.lip6.ahg.dsl.repository</module>
+		<module>dsl/lip6.ahg.dsl.feature</module>
+		<module>dsl/lip6.ahg.dsl.repository</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
