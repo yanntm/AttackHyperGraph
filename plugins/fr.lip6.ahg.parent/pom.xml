@@ -115,7 +115,7 @@
 					<target>
 						<artifact>
 							<groupId>fr.lip6.ahg</groupId>
-							<artifactId>lip6.ahg.target</artifactId>
+							<artifactId>lip6.move.ahg.target</artifactId>
 							<version>${project.version}</version>
 						</artifact>
 					</target>
