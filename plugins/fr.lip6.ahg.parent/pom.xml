@@ -54,8 +54,8 @@
 	</dependencyManagement>
 	<distributionManagement>
 	<site>
-	<url>https://yanntm.github.io/Puck3/doc/</url>
-	<id>fr.lip6.puck3</id>
+	<url>https://yanntm.github.io/AttackHyperGraph/doc/</url>
+	<id>fr.lip6.ahg</id>
 	</site>
 	</distributionManagement>
 	<build>
@@ -114,8 +114,8 @@
 				<configuration>
 					<target>
 						<artifact>
-							<groupId>fr.lip6.puck</groupId>
-							<artifactId>fr.lip6.puck.dsl.target</artifactId>
+							<groupId>fr.lip6.ahg</groupId>
+							<artifactId>lip6.ahg.target</artifactId>
 							<version>${project.version}</version>
 						</artifact>
 					</target>
